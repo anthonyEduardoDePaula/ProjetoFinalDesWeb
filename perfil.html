@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KabanTopia - Perfil</title>
+
+    <link rel="icon" type="image/png" href="Img/PerfilDeCoelhoKanban.png">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <img src="Img/KanbanImagemDeFundo.png" alt="" class="imagem-fundo">
+
+    <header>
+        <h1><img src="Img/KanbanTopiaCoelhoLogoSemFundo.png" alt="" class="logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
+                <li><a href="perfil.html" class="ativo">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="conteudo-principal centralizado">
+        <div class="card-perfil">
+            <h2>Meu Perfil</h2>
+            <div class="avatar-area">
+                <img src="Img/PerfilDeCoelhoKanban.png" alt="Avatar">
+            </div>
+            
+            <h3>Nome de Usuário:</h3>
+            <input type="text" id="perfil-nome" placeholder="Seu nome...">
+            
+            <h3>Email:</h3>
+            <input type="email" id="perfil-email" placeholder="seuemail@exemplo.com">
+            
+            <button class="bt-salvar-perfil" onclick="salvarPerfil()">Salvar</button>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
